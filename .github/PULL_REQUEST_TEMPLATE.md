@@ -1,22 +1,22 @@
-## Summary
-- What changed?
-- Why is this needed?
+## 요약
+- 무엇을 변경했나요?
+- 왜 이 변경이 필요한가요?
 
-## Related Issue
+## 관련 이슈
 Closes #
 
-## Scope Check
-- [ ] This PR is within backend learning scope.
-- [ ] No unnecessary dependency was added.
-- [ ] Docs were updated if process or behavior changed.
+## 범위 점검
+- [ ] 이 PR은 백엔드 학습 범위 내 변경입니다.
+- [ ] 불필요한 의존성을 추가하지 않았습니다.
+- [ ] 동작/프로세스가 바뀌면 문서를 함께 수정했습니다.
 
-## Local Verification
+## 로컬 검증
 - [ ] `./gradlew test`
 - [ ] `./gradlew build`
 
-## API Evidence
-- [ ] Request/response example attached (or curl output)
+## API 증빙
+- [ ] 요청/응답 예시(또는 curl 출력)를 첨부했습니다.
 
-## Review Notes
-- Points to focus on:
-- Known limitations:
+## 리뷰 참고 사항
+- 중점적으로 봐주었으면 하는 부분:
+- 알려진 제한 사항:
