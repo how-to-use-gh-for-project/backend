@@ -1,0 +1,35 @@
+name: Backend feature
+description: Request a small API/backend feature for practice.
+title: "feat(backend): "
+labels:
+  - type: feature
+  - area: backend
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What API/backend behavior should be added?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define 2-3 testable outcomes.
+      placeholder: |
+        - [ ] Endpoint behavior is implemented
+        - [ ] Validation/error handling is clear
+        - [ ] Test/build pass
+    validations:
+      required: true
+
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Out of Scope
+      description: What should not be added?
+      placeholder: Complex domain expansion, new external systems
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+# Replace placeholders with real GitHub IDs.
+* @how-to-use-gh-for-project/backend
+
+/src/main/ @how-to-use-gh-for-project/backend
+/src/test/ @how-to-use-gh-for-project/backend
