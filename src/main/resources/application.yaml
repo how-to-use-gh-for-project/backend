@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backend
+  docker:
+    compose:
+      enabled: true
+      file: docker-compose.yml
+      # 애플리케이션 종료 시 컨테이너를 어떻게 할지 결정 (stop, down, none)
+      lifecycle-management: start-and-stop
