@@ -10,11 +10,11 @@ import app.backend.api.member.dto.MemberResponse;
 public class MemberService {
 
     private static final List<MemberResponse> SAMPLE_MEMBERS = List.of(
-            new MemberResponse(1L, "Alice"),
-            new MemberResponse(2L, "Bob"),
-            new MemberResponse(3L, "Chris"),
-            new MemberResponse(4L, "Dana"),
-            new MemberResponse(5L, "Evan"));
+            new MemberResponse(1L, "Alice", 22),
+            new MemberResponse(2L, "Bob", 12),
+            new MemberResponse(3L, "Chris", 56),
+            new MemberResponse(4L, "Dana", 7),
+            new MemberResponse(5L, "Evan", 39));
 
     public List<MemberResponse> getMembers(int limit) {
         int safeLimit = Math.min(limit, SAMPLE_MEMBERS.size());
