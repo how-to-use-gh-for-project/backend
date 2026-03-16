@@ -17,7 +17,7 @@ jobs:
         with:
           script: |
             const branchName = context.payload.pull_request.head.ref.toLowerCase();
-            const prBody = (context.payload.pull_request.body || '').toLowerCase();
+            const prBody = context.payload.pull_request.body || '';
 
             const managedLabels = [
               '✨ feat',
@@ -48,11 +48,15 @@ jobs:
             if (branchName.startsWith('chore/')) desiredLabels.add('🚚 chore');
             if (branchName.startsWith('security/')) desiredLabels.add('🔒 security');
 
-            if (prBody.includes('- [x] api 스펙이 변경되었어요')) {
+            // PR 체크박스 기반 라벨링 (문구 변화/대소문자/공백 변화에 강건하도록 정규식 사용)
+            const hasCheckedApiChange = /-\s*\[[xX]\]\s*API(?:의)?\s*(?:요구사항|스펙).*변경/i.test(prBody);
+            const hasCheckedDbChange = /-\s*\[[xX]\]\s*DB\s*구조.*변경/i.test(prBody);
+
+            if (hasCheckedApiChange) {
               desiredLabels.add('🧩 api');
             }
 
-            if (prBody.includes('- [x] DB 구조가 변경됐어요')) {
+            if (hasCheckedDbChange) {
               desiredLabels.add('🗄️ db');
             }
 
