@@ -44,6 +44,7 @@ jobs:
             if (branchName.startsWith('perf/')) desiredLabels.add('⚡ performance');
             if (branchName.startsWith('test/')) desiredLabels.add('✅ test');
             if (branchName.startsWith('refactor/')) desiredLabels.add('♻️ refactor');
+            if (branchName.startsWith('style/')) desiredLabels.add('🎨 style');
             if (branchName.startsWith('docs/')) desiredLabels.add('📝 docs');
             if (branchName.startsWith('chore/')) desiredLabels.add('🚚 chore');
             if (branchName.startsWith('security/')) desiredLabels.add('🔒 security');

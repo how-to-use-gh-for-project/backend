@@ -28,6 +28,7 @@ upsert_label "🔐 auth" "0e8a16" "인증/인가 관련 작업 (Authentication &
 upsert_label "⚡ performance" "fbca04" "성능 개선 및 병목 최적화 (Performance optimization)"
 upsert_label "✅ test" "7057ff" "백엔드 테스트 코드 추가/수정 (Backend tests)"
 upsert_label "♻️ refactor" "e99695" "백엔드 코드 구조 개선 (Code restructuring)"
+upsert_label "🎨 style" "fef2c0" "코드 포맷팅, 세미콜론 누락 등 (Formatting)"
 upsert_label "📝 docs" "0075ca" "백엔드 문서 수정 (Backend documentation)"
 upsert_label "🚚 chore" "ededed" "의존성/설정/인프라 유지보수 (Maintenance)"
 upsert_label "🔒 security" "b60205" "보안 취약점 대응 및 강화 (Security hardening)"
