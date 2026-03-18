@@ -1,4 +1,4 @@
-package app.backend.api.common;
+package menuselector.backend.api.common;
 
 import java.util.Map;
 

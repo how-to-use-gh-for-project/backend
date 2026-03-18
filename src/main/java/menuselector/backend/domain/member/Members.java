@@ -1,4 +1,4 @@
-package app.backend.domain.member;
+package menuselector.backend.domain.member;
 
 import jakarta.persistence.Table;
 

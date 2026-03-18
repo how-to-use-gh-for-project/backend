@@ -1,4 +1,4 @@
-package app.backend.api.member;
+package menuselector.backend.api.member;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import app.backend.api.member.dto.MemberResponse;
+import menuselector.backend.api.member.dto.MemberResponse;
 
 @RestController
 @RequestMapping("/api/members")

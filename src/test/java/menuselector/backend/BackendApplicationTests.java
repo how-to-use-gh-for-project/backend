@@ -1,4 +1,4 @@
-package app.backend;
+package menuselector.backend;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
