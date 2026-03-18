@@ -1,4 +1,4 @@
-package app.backend.api.member;
+package menuselector.backend.api.member;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

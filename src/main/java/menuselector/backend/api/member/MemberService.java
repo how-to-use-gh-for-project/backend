@@ -1,10 +1,10 @@
-package app.backend.api.member;
+package menuselector.backend.api.member;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import app.backend.api.member.dto.MemberResponse;
+import menuselector.backend.api.member.dto.MemberResponse;
 
 @Service
 public class MemberService {
